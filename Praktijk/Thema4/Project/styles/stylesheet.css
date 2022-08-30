@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+body
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+}
+
+.borderStyle
+{
+    height: 5px;
+    background: white url("/Praktijk/Thema4/Project/images/lijn.png");
+}

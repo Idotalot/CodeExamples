@@ -1,0 +1,89 @@
+#updateForm
+{
+    background-color: rgb(43, 43 ,43);
+    width: 630px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#updateForm h3
+{
+    text-align: center;
+    margin: 10px;
+    color: #0099cc;
+    border-bottom: #0099cc solid 3px;
+}
+
+#updateForm label
+{
+    text-align: left;
+    width: 610px;
+    margin: 0 20px;
+    color: white;
+}
+
+.updateInput
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.updateInput, #updateButton
+{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    width: 610px;
+    background-color: #3b3b3b;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#updateButton
+{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #0099cc;
+    transition: 0.3s;
+}
+
+#updateButton:hover
+{
+    background-color: #0099cc;
+    color: white;
+    transition: 0.3s;
+}
+
+.ucComplete, .ucFailed
+{
+    background-color: rgb(61, 61, 61);
+    width: 580px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: rgb(43, 43, 43) solid 20px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.ucComplete
+{
+    color: lawngreen;
+}
+
+.ucFailed
+{
+    color: red;
+}

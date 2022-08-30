@@ -1,0 +1,80 @@
+#loginForm
+{
+    margin-top: 200px;
+    background-color: rgb(43, 43, 43);
+    margin-bottom: 200px;
+}
+
+#loginResult
+{
+    text-align: center;
+    margin-top: -190px;
+    background-color: red;
+    margin-bottom: 148px;
+}
+
+form
+{
+    position: relative;
+    width: 600px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: #3b3b3b 5px;
+    border-radius: 10px;
+}
+
+.formCenter
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: rgb(61, 61, 61);
+}
+
+form input, form p, form button
+{
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+form p
+{
+    margin-top: 20px;
+}
+
+form input
+{
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form button
+{
+    background-color: #0099cc;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 0;
+    transition: 0.3s;
+}
+
+form button:hover
+{
+    background-color: dodgerblue;
+    color: white;
+    transition: 0.3s;
+}

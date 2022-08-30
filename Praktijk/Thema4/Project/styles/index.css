@@ -1,0 +1,96 @@
+main
+{
+
+}
+
+#startSection
+{
+    position: relative;
+    background-color: rgb(61, 61, 61);
+}
+
+#headerImg
+{
+    width: 100%;
+    position: relative;
+}
+
+#startSection a
+{
+    position: absolute;
+    /*margin-top: 65vh;*/
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    text-decoration: none;
+}
+
+a figure
+{
+    /*margin-top: 10px;*/
+    margin-top: -200px;
+    height: 100px;
+    background-color: rgb(43 43 43);
+    transition: 0.3s;
+}
+
+figure img
+{
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+figure #loginButton
+{
+
+    text-align: center;
+}
+
+#loginButton
+{
+    padding-top: 35px;
+    height: 100px;
+    color: #0099cc;
+    transition: 0.3s;
+}
+
+#startSection figure:hover
+{
+    background-color: rgb(61 61 61);
+    transition: 0.3s;
+}
+
+#loginButton:hover
+{
+    color: white;
+    transition: 0.3s;
+}
+
+#mainSection
+{
+    position: relative;
+    /*border: red solid 5px;*/
+    background-color: rgb(61, 61, 61);
+}
+
+.opleidingFigure
+{
+    position: relative;
+    height: 500px;
+}
+
+#indexEventTitle
+{
+    text-align: center;
+    width: 600px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(43, 43, 43);
+    color: #0099cc;
+    border: rgb(43, 43, 43) solid 10px;
+    border-radius: 10px;
+}

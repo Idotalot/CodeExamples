@@ -1,0 +1,56 @@
+#activityTable
+{
+    width: 620px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+#studentTable, #activityTable
+{
+    display: block;
+    border: rgb(43, 43, 43) 10px solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: rgb(43, 43, 43);
+}
+
+#studentTable
+{
+    width: 650px;
+    margin-top: 100px;
+}
+
+th
+{
+    border-bottom: #0099cc 3px solid;
+    padding: 15px;
+    color: #0099cc;
+}
+
+td
+{
+    border-bottom: white 3px solid;
+    padding: 10px;
+    color: white;
+}
+
+td a
+{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+td a:hover
+{
+    color: #0099cc;
+    transition: 0.3s;
+}
+
+.dateTd
+{
+    width: 1000px;
+    text-align: center;
+}

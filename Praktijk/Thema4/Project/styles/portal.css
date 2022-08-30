@@ -1,0 +1,70 @@
+main
+{
+    background-color: rgb(61, 61, 61);
+}
+#portalList
+{
+    margin-top: 100px;
+}
+
+.returnButton
+{
+    margin-top: 10px;
+}
+
+#portalList, .returnButton
+{
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    border: rgb(43, 43, 43) solid 20px;
+}
+
+#portalList, .returnButton
+{
+    margin-bottom: 200px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portalA
+{
+    text-decoration: none;
+    color: #0099cc;
+    display: inline-block;
+    padding: 80px 200px;
+    transition: 0.3s;
+}
+
+.portalButton
+{
+    margin-bottom: 20px;
+}
+
+#portalList li, button, .returnButton li
+{
+    position: relative;
+    background-color: rgb(61, 61, 61);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    height: 200px;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#portalList li:hover, button:hover, .returnButton li:hover
+{
+    background-color: #0099cc;
+}
+
+.portalA:hover
+{
+    color: white;
+    transition: 0.3s;
+}
+
+

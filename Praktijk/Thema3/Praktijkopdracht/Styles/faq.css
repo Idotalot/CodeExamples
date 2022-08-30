@@ -1,0 +1,53 @@
+#searchBarArt
+{
+    margin-top: 90px;
+}
+
+article
+{
+    /*text-align: center;*/
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 10px;
+}
+
+/*#art2*/
+/*{*/
+/*    margin-top: 0px;*/
+/*}*/
+
+#button1, #button2, #button3, #button4, #searchBar
+{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+#button1, #button2, #button3, #button4
+{
+    color: white;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    transition: 0.4s;
+}
+
+#a1, #a2, #a3, #a4
+{
+    display: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #0099cc;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover
+{
+    background-color: #0099cc;
+    transition: 0.4s;
+}
+
+#searchBar
+{
+    overflow: hidden;
+}

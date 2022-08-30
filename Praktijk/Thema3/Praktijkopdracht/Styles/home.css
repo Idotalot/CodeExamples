@@ -1,0 +1,45 @@
+#mainArt
+{
+    text-align: center;
+    padding: 20px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 100px;
+    background-color: orangered;
+}
+
+#mainUl
+{
+    text-align: left;
+}
+
+iframe
+{
+    margin: 25px;
+    width: 300px;
+    height: 200px;
+}
+
+#location
+{
+    text-align: left;
+    position: absolute;
+    background-color: orangered;
+    margin-top: 100px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    height: 250px;
+    width: 40%;
+}
+
+#maps
+{
+    position: absolute;
+}
+
+#locationInfo
+{
+    margin-left: 370px;
+    margin-top: 25px;
+    font-size: 30px;
+}
